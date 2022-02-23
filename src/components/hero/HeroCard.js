@@ -9,7 +9,7 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const imgPath = `/assets/${id}.jpg`;
+  const imgPath = `../../../public/assets/${id}.jpg`;
 
   return (
     <div className="col">
