@@ -16,7 +16,7 @@ export const HeroCard = ({
         <div className="row no-gutters">
           <div className="col-4">
             <img
-              src={heroImages(`./${id}.jpg`).default}
+              src={heroImages(`./${id}.jpg`)}
               alt={superhero}
               className="card-img"
             />
